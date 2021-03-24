@@ -1,23 +1,49 @@
 body{
   font-family: "Lucida Grande";
+  background-color: floralwhite;
+}
+
+.header{
   background-color: lavenderblush;
-  color: mediumorchid;
+  color: lightcoral;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main{
+  color: slategray;
+  margin-left: 150px;
+}
+
+h3{
+  display: inline-block;
+  background-color: papayawhip;
+  border: 3px dotted pink;
+}
+
+.shindan{
   width: 500px;
   margin-right: auto;
   margin-left: auto;
-}
-.shindan{
   padding: 5px 20px;
-  background-color: lightcyan;
+  background-color: paleturquoise;
   border-style: white;
-  color: violet;
+  color: palevioletred;
 }
+
 button{
   padding: 5px 20px;
   background-color: papayawhip;
   border-style: none;
-  color: violet;
+  color: palevioletred;
 }
+
 input{
   height: 20px;
+}
+
+.profile{
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
