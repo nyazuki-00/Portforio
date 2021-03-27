@@ -8,6 +8,20 @@ body{
   color: lightcoral;
   text-align: center;
   padding-bottom: 20px;
+  border-radius: 50px;
+}
+
+@keyframes rotate-z{
+  0%{transform:rotateZ(0deg);}
+  100%{transform:rotateZ(360deg);}
+}
+@-webkit-keyframes rotate-x{
+  0%{-webkit-transform:rotateZ(0deg);}
+  100%{-webkit-transform:rotateZ(360deg);}
+}
+.header img:hover{
+  animation:rotate-z 2s infinite;
+  -webkit-animation:rotate-z 2s infinite;
 }
 
 .main{
@@ -19,6 +33,7 @@ h3{
   display: inline-block;
   background-color: papayawhip;
   border: 3px dotted pink;
+  border-radius: 10px;
 }
 
 .shindan{
@@ -28,6 +43,11 @@ h3{
   background-color: paleturquoise;
   border-style: white;
   color: palevioletred;
+  border-radius: 30px;
+}
+
+.shindan h1{
+  text-align: center;
 }
 
 button{
